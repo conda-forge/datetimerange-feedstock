@@ -1,5 +1,5 @@
 {% set name = "DateTimeRange" %}
-{% set version = "1.2.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/DateTimeRange-{{ version }}.tar.gz
-  sha256: 47bc10e5df23bb1f0d3ee493a26cb8d1d99e179884aabff62d3e51033b6a73ce
+  sha256: 944e70d964c95618a826e82a8876762bf9acc1028d9d8a7fb425f31d1abe4ef8
 
 build:
   noarch: python
@@ -33,10 +33,10 @@ test:
 
 about:
   home: https://github.com/thombashi/DateTimeRange
-  summary: DateTimeRange is a Python library to handle a time range. 
+  summary: DateTimeRange is a Python library to handle a time range.
   description: |
-      Check whether a time is within the time range, get the intersection of time ranges, 
-      truncating a time range, iterate through a time range, and so forth.
+    Check whether a time is within the time range, get the intersection of time ranges, 
+    truncating a time range, iterate through a time range, and so forth.
   dev_url: https://github.com/thombashi/DateTimeRange
   license: MIT
   license_file: LICENSE
