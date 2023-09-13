@@ -1,11 +1,11 @@
-About datetimerange
-===================
+About datetimerange-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datetimerange-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/thombashi/DateTimeRange
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datetimerange-feedstock/blob/main/LICENSE.txt)
 
 Summary: DateTimeRange is a Python library to handle a time range.
 
