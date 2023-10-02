@@ -1,5 +1,5 @@
 {% set name = "DateTimeRange" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/DateTimeRange-{{ version }}.tar.gz
-  sha256: 944e70d964c95618a826e82a8876762bf9acc1028d9d8a7fb425f31d1abe4ef8
+  sha256: 97ced11644dbd51bfc8625b83922d7ee353ab5da63b5e0e8dda367a576480dee
 
 build:
   noarch: python
